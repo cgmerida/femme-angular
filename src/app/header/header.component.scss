@@ -1,0 +1,30 @@
+.fill {
+  flex: 1 1 auto;
+}
+
+.nav-item {
+  margin: auto 20px;
+  font-size: .9em;
+  letter-spacing: .1rem;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: white;
+  font-weight: 400;
+}
+
+.fixed {
+  position: fixed;
+}
+
+.transparent {
+  background-color: transparent;
+}
+
+mat-toolbar {
+  z-index: 1;
+  height: 90px;
+
+  img {
+    width: 70px;
+  }
+}

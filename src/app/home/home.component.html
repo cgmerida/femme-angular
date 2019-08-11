@@ -1,0 +1,77 @@
+<div class="bg-gradient section">
+  <div class="full-height bg-img">
+    <div class="img logo position-absolute bottom-left">
+      <img src="assets/images/logo_transparent_white.png" alt="Logo" class="img-fluid logo-img">
+    </div>
+  </div>
+</div>
+<div class="section min-vh-100" fxLayout="row" fxLayoutAlign="space-evenly center" fxLayoutAlign.sm="center center">
+  <div [fxFlex]=30 [fxFlex.sm]="40">
+    <div class="lead">Un lugar para la <span class="strong">Mujer</span></div>
+    <p>
+      Una plataforma diseñada para <br>
+      que las mujeres podamos <br>
+      compartir de belleza y salud.
+    </p>
+    <a href="./blog.html" mat-flat-button color="accent" class="full-width-btn">Ir al Blog</a>
+  </div>
+  <div [fxFlex]="50" [fxFlex.sm]="40" class="img-container">
+    <div class="bg-flores">
+      <!-- <img src="assets/images/flores.jpg" class="img-fluid" alt="Flowers" height=300> -->
+    </div>
+  </div>
+</div>
+<div class="section min-vh-100" fxLayout="row" fxLayoutAlign="space-evenly center" fxLayoutAlign.sm="center center">
+  <div fxFlex="25" fxFlex.sm="50">
+    <mat-card>
+      <div fxLayoutAlign="center center" class="text-secondary">
+        <i class="fa fa-comments-o fa-10x"></i>
+      </div>
+      <mat-card-content>
+        <p>
+          Encuentra los mejores tips de belleza,
+          los mejores tutoriales, una comunidad
+          en español de mujeres sobre
+          belleza y salud.
+        </p>
+      </mat-card-content>
+      <mat-card-actions>
+        <button mat-button>Blog</button>
+      </mat-card-actions>
+    </mat-card>
+  </div>
+  <div fxFlex="25" fxFlex.sm="50">
+    <mat-card>
+      <div fxLayoutAlign="center center" class="text-primary">
+        <i class="fa fa-shopping-cart fa-10x"></i>
+      </div>
+      <mat-card-content>
+        <p>
+          Los mejores productos para tu belleza
+          y cuidado. Productos Naturales
+          que cuidarán tu belleza y salud.
+        </p>
+      </mat-card-content>
+      <mat-card-actions>
+        <button mat-button>Comprar</button>
+      </mat-card-actions>
+    </mat-card>
+  </div>
+  <div fxFlex="25" fxFlex.sm="50">
+    <mat-card>
+      <mat-card-content>
+        <div fxLayoutAlign="center center" class="text-red">
+          <i class="fa fa-calendar-o fa-10x"></i>
+        </div>
+        <p>
+          ¡Haz una cita con nosotros! Somos
+          una empresa de belleza en Guatemala
+          como ninguna otra. Contactanos.
+        </p>
+      </mat-card-content>
+      <mat-card-actions>
+        <button mat-button>Hacer una Cita</button>
+      </mat-card-actions>
+    </mat-card>
+  </div>
+</div>

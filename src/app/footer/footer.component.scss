@@ -1,0 +1,43 @@
+@import '../../variables';
+
+
+.footer {
+  background-color: $lg-blue-color;
+  @include zero-margin(20px, 0px);
+
+  * {
+      color: white;
+  }
+}
+
+[class*=btn-] {
+  color: #fff !important;
+}
+
+.btn-facebook {
+  background-color: #3b5998 !important;
+}
+
+.btn-google-plus {
+  background-color: #dd4b39 !important;
+}
+
+.btn-youtube {
+  background-color: #ff4b39 !important;
+}
+
+.btn-linkedin {
+  background-color: #007bb6 !important;
+}
+
+.btn-twitter {
+  background-color: #55acee !important;
+}
+
+.btn-mail {
+  background-color: #512DA8 !important;
+}
+
+mat-list-item {
+  height: 30px!important;
+}

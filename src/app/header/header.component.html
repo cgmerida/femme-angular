@@ -1,0 +1,10 @@
+<mat-toolbar color=primary class="fixed" [ngClass]="screenSize >= scroll ? 'transparent' : '' ">
+  <!-- This fills the remaining space of the current row -->
+  <img src="/assets/images/logo-img.png" alt="Logo" *ngIf="screenSize < scroll">
+
+  <span class="fill"></span>
+
+  <button mat-button class="nav-item">Blog</button>
+  <button mat-button class="nav-item">Tienda</button>
+  <button mat-button class="nav-item">Citas</button>
+</mat-toolbar>
